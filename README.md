@@ -1,4 +1,3 @@
-
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
 local Window = Rayfield:CreateWindow({
    Name = "BaconHub🥓 / Bacon-ARWE",
@@ -10,9 +9,9 @@ local Window = Rayfield:CreateWindow({
       FileName = "BaconHub"
    },
    Discord = {
-      Enabled = false,
+      Enabled = true,
       Invite = "ABCD", 
-      RememberJoins = true 
+      RememberJoins = false 
    },
    KeySystem = false,
    KeySettings = {
@@ -32,6 +31,14 @@ if not getgenv().FrameMode == nil then
 	else
 	
 		if getgenv().FrameMode then
+		
+local Tab = Window:CreateTab("Credit", 4483362458)
+
+local Label = Tab:CreateLabel("This Hub , Code Credit By BaconHub#1055.")
+
+local Label = Tab:CreateLabel("Bacon Like Discord Lun-Ware My Server Edit By skp#4687 ")
+
+local Label = Tab:CreateLabel("My UI , Frame , Title , Button , Animation Credit By Sirius Server")
 
 local Tab = Window:CreateTab("Home", 4483362458)
 

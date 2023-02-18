@@ -673,6 +673,8 @@ if getgenv().UpdateMode then
 	local Label = Tab:CreateLabel("Pet Simulator")
 	
 	local Label = Tab:CreateLabel("Bloxing Legue")
+	
+	local Label = Tab:CreateLabel("KAT")
 
 		end
 end

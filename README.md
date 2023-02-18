@@ -675,6 +675,11 @@ if getgenv().UpdateMode then
 	local Label = Tab:CreateLabel("Bloxing Legue")
 	
 	local Label = Tab:CreateLabel("KAT")
+	
+	
+	local Label = Tab:CreateLabel("Bacon To New Windows :D")
+	
+	local Label = Tab:CreateLabel("Fencing But BackDoor")
 
 		end
 end

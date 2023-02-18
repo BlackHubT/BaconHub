@@ -1,0 +1,31 @@
+local Window = Rayfield:CreateWindow({
+   Name = "BaconHub🥓 / Bacon-ARWE",
+   LoadingTitle = "BaconHub Error Check . Please Check And Reaper",
+   LoadingSubtitle = "Create by BaconHub#1055",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, 
+      FileName = "BaconHub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "ABCD", 
+      RememberJoins = true 
+   },
+   KeySystem = false,
+   KeySettings = {
+      Title = "Verify Key 🔑",
+      Subtitle = "Create By BaconHub#1055",
+      Note = "Baconub is coming son key | You Key Here: AFKCSNRLBACONLM",
+      FileName = "BaconKey",
+      SaveKey = false,
+      GrabKeyFromSite = false, 
+      Key = "AFKCSNRLBACONLM"
+   }
+})
+
+local Tab = Window:CreateTab("Visit Me!", 4483362458)
+
+local Label = Tab:CreateLabel("1) Bacon Hub Deteced You Delete Code getgenv().FrameMode = true")
+
+local Label = Tab:CreateLabel("2) Bacon Hub Deteced You Set Code getgent().FrameMode = true to false")

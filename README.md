@@ -24,14 +24,11 @@ local Window = Rayfield:CreateWindow({
       Key = "AFKCSNRLBACONLM"
    }
 })
-
-
-if not getgenv().FrameMode == nil then
+	if	not getgenv().FrameMode == nil then
 
 	else
 	
-		if getgenv().FrameMode then
-		
+	if getgenv().FrameMode then
 local Tab = Window:CreateTab("Credit", 4483362458)
 
 local Label = Tab:CreateLabel("This Hub , Code Credit By BaconHub#1055.")
@@ -656,5 +653,26 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/H4R7NHacks/Obfuscated/master/Breaking%20Point%20H4R7N%20Hack%20v1.2.lua"))()
    end,
 })
+
 		end
-	end
+end
+
+if	not getgenv().UpdateMode == nil then
+
+	else
+	
+if getgenv().UpdateMode then
+	local Tab = Window:CreateTab("Update", 4483362458)
+	
+	local Label = Tab:CreateLabel("My Expliot To New Add Scripts :D")
+	
+	local Label = Tab:CreateLabel("BIG Paintball! 🔫")
+	
+	local Label = Tab:CreateLabel("Phantom")
+	
+	local Label = Tab:CreateLabel("Pet Simulator")
+	
+	local Label = Tab:CreateLabel("Bloxing Legue")
+
+		end
+end

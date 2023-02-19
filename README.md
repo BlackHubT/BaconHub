@@ -29,6 +29,21 @@ local Window = Rayfield:CreateWindow({
 	else
 	
 	if getgenv().FrameMode then
+Rayfield:Notify({
+	Title = "BaconHub",
+	Content = "Bacon Hub .Scripts Better No Error Code Check Error Code in Console",
+	Duration = 7,
+	Image = 4483362458,
+	Actions = { 
+		Ignore = {
+			Name = "Clicker Me Close",
+			Callback = function()
+				
+			end
+		},
+	},
+})
+	
 local Tab = Window:CreateTab("Credit", 4483362458)
 
 local Label = Tab:CreateLabel("This Hub , Code Credit By BaconHub#1055.")
@@ -654,6 +669,229 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Section = Tab:CreateSection("Kat")
+
+local Button = Tab:CreateButton({
+   Name = "No Reason",
+   Callback = function()
+   loadstring(game:GetObjects('rbxassetid://340856112')[1].Source)()
+ 
+wait()
+ 
+_G.FREE_FOR_ALL = false
+ 
+_G.BIND = 50 
+_G.ESP_BIND = 52 
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "No Reason",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/6rd91GZx", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "ZReal-King V2",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/King-Hub-v2/main/Loader.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "lel69",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/lel69/KAT/main/GUI"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "BaconLords",
+   Callback = function()
+   local vu = game:GetService("VirtualUser")
+
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+
+   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+
+   wait(1)
+
+   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+
+end)
+
+
+
+
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/BaconLords/Why-are-we-here-to-suffer/main/KAT")()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "No Reason",
+   Callback = function()
+   loadstring(Game:HttpGet("https://gist.githubusercontent.com/qp39rh421984y812/d59f1517d9ed447698dcdbf97bd91b02/raw/360823c8df903d52d2d089a90b3e6106191f8df8/Katmonke"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Axure Hub V2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AkkGamerBoy/Axure-Hub/main/Axure%20Hub"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Pet Simulator")
+
+local Button = Tab:CreateButton({
+   Name = "cipex-rbx",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/cipex-rbx/cipex/main/loader.lua"))([==[
+
+Toggle Keybind: Right Shift
+
+Created by: neex#6456, Pawel12d#0272, daruno#6587
+
+]==])
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "CelestialHub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/JellyBagBeans/CelestialHub/main/GameLoader"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "milkup.info",
+   Callback = function()
+   loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "GoldenScripts",
+   Callback = function()
+   local old
+
+old = hookfunction(game.HttpGet, function(...)
+
+   local args = {...}
+
+   local url = args[2]
+
+   if url:match('ezhub.club') and url:match('verifykey') then
+
+       return '154784769'
+
+   end  
+
+   return old(...)
+
+end)
+
+
+
+hookfunction(os.time, function()
+
+   return 1
+
+end)
+
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TurfuGoldy/GoldenScripts/main/EzPets.lua", true))()
+   end,
+})
+
+local Section = Tab:CreateSection("Bloxing Legue")
+
+local Button = Tab:CreateButton({
+   Name = "yogurtsss",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/yogurtsss/trashs-scripts-obfuscated/main/Boxing%20League", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "SethProYT",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/SethProYT/boxing-league-script/main/script", true))()
+   end,
+})
+
+local Section = Tab:CreateSection("BIG Paintball! 🔫")
+
+local Button = Tab:CreateButton({
+   Name = "mopsfl",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/mopsfl/rbxmopshub/main/loader.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "radjahfromdiscord",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/radjahfromdiscord/iNEXT/main/source"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Gun Mod",
+   Callback = function()
+   for i,v in next, getgc(true) do
+    if type(v) == "table" and rawget(v, "damage") then
+        v.shotrate = 0.001
+        v.damage = 10000
+        v.velocity = 10000
+        v.zoomAmount = 3
+        v.automatic = true
+    end
+end
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Auto Farm / Kill All",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Releases/main/Big-Paintball/KillAll.lua"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Phantom")
+
+local Button = Tab:CreateButton({
+   Name = "Herrtt",
+   Callback = function()
+   pcall(function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Herrtt/Phantom-Forces-Cheat/main/Main.lua", true))()
+end)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "",
+   Callback = function()
+   
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "",
+   Callback = function()
+   
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "",
+   Callback = function()
+   
+   end,
+})
 		end
 end
 
@@ -666,20 +904,21 @@ if getgenv().UpdateMode then
 	
 	local Label = Tab:CreateLabel("My Expliot To New Add Scripts :D")
 	
-	local Label = Tab:CreateLabel("BIG Paintball! 🔫")
+	local Label = Tab:CreateLabel("✅Is Done /❌Is Starts Update To Sunday Or Night")
 	
-	local Label = Tab:CreateLabel("Phantom")
+	local Label = Tab:CreateLabel("BIG Paintball! 🔫 ✅")
 	
-	local Label = Tab:CreateLabel("Pet Simulator")
+	local Label = Tab:CreateLabel("Phantom❌")
 	
-	local Label = Tab:CreateLabel("Bloxing Legue")
+	local Label = Tab:CreateLabel("Pet Simulator ✅")
 	
-	local Label = Tab:CreateLabel("KAT")
+	local Label = Tab:CreateLabel("Bloxing Legue ✅")
 	
+	local Label = Tab:CreateLabel("KAT ✅")
 	
 	local Label = Tab:CreateLabel("Bacon To New Windows :D")
 	
-	local Label = Tab:CreateLabel("Fencing But BackDoor")
+	local Label = Tab:CreateLabel("Fencing But BackDoor❌")
 
 		end
 end

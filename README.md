@@ -9,11 +9,11 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, 
-      FileName = "BaconHub"
+      FileName = "BaconHub",
    },
    Discord = {
-      Enabled = true,
-      Invite = "ABCD", 
+      Enabled = false,
+      Invite = "", 
       RememberJoins = false 
    },
    KeySystem = true,
@@ -47,19 +47,21 @@ Rayfield:Notify({
 	},
 })
 
-local Tab = Window:CreateTab("Account", 4483362458)
+local Tab = Window:CreateTab("Home", 9792462652)
 
 local Label = Tab:CreateLabel("Welcome "..player.Name.." To BaconHub🥓 / Bacon-ARWE ")
 
-local Label = Tab:CreateLabel("Game Place Id : "..PlaceId.."")
+local Label = Tab:CreateLabel("Game Place Id : "..PlaceId.." ")
 
-local Tab = Window:CreateTab("Credit", 4483362458)
+local Tab = Window:CreateTab("Credit", 9766675093)
 
 local Label = Tab:CreateLabel("This Hub , Code Credit By BaconHub#1055.")
 
 local Label = Tab:CreateLabel("Bacon Like Discord Lun-Ware My Server Edit By skp#4687 ")
 
 local Label = Tab:CreateLabel("My UI , Frame , Title , Button , Animation Credit By Sirius Server")
+
+local Label = Tab:CreateLabel("My Icon Make By Vision Software")
 
 local Label = Tab:CreateLabel("Developer Scripts")
 
@@ -153,7 +155,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Domain X",
    Callback = function()
-   loadstring(game:HttpGet(('https://shlex.dev/release/domainx/latest.lua'),true))()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
    end,
 })
 
@@ -199,7 +201,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Scripts Hub", 4483362458)
+local Tab = Window:CreateTab("Scripts UI", 9792634811)
 
 local Section = Tab:CreateSection("Brookhaven")
 

@@ -13,15 +13,15 @@ local Window = Rayfield:CreateWindow({
       Invite = "ABCD", 
       RememberJoins = false 
    },
-   KeySystem = false,
+   KeySystem = true,
    KeySettings = {
       Title = "Verify Key 🔑",
       Subtitle = "Create By BaconHub#1055",
-      Note = "Baconub is coming son key | You Key Here: AFKCSNRLBACONLM",
+      Note = "Join Discord Lun-Ware To Has Key BaconHub",
       FileName = "BaconKey",
-      SaveKey = false,
+      SaveKey = true,
       GrabKeyFromSite = false, 
-      Key = "AFKCSNRLBACONLM"
+      Key = "mPlas#deprem",
    }
 })
 	if	not getgenv().FrameMode == nil then
@@ -52,6 +52,10 @@ local Label = Tab:CreateLabel("Bacon Like Discord Lun-Ware My Server Edit By skp
 
 local Label = Tab:CreateLabel("My UI , Frame , Title , Button , Animation Credit By Sirius Server")
 
+local Label = Tab:CreateLabel("Developer Scripts")
+
+local Label = Tab:CreateLabel("BaconHub#1055 / skp#4687")
+
 local Tab = Window:CreateTab("Home", 4483362458)
 
 local Paragraph = Tab:CreateParagraph({Title = "All Scripts", Content = "V V V V V V"})
@@ -81,6 +85,16 @@ local Label = Tab:CreateLabel("Arsenal")
 local Label = Tab:CreateLabel("Da Hood")
 
 local Label = Tab:CreateLabel("Combat Warriors")
+
+local Label = Tab:CreateLabel("BIG Paintball! 🔫")
+	
+local Label = Tab:CreateLabel("Phantom")
+	
+local Label = Tab:CreateLabel("Pet Simulator ")
+	
+local Label = Tab:CreateLabel("Bloxing Legue ")
+	
+local Label = Tab:CreateLabel("KAT ")
 
 local Tab = Window:CreateTab("Executors", 4483362458)
 
@@ -748,13 +762,7 @@ local Section = Tab:CreateSection("Pet Simulator")
 local Button = Tab:CreateButton({
    Name = "cipex-rbx",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/cipex-rbx/cipex/main/loader.lua"))([==[
-
-Toggle Keybind: Right Shift
-
-Created by: neex#6456, Pawel12d#0272, daruno#6587
-
-]==])
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/cipex-rbx/cipex/main/loader.lua"))()
    end,
 })
 
@@ -900,11 +908,11 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Label = Tab:CreateLabel("My Scripts Only Working In Game Fecing But BackDoor")
-
+local Tab = Window:CreateTab("Fencing But BackDoor", 4483362458)
+local Label = Tab:CreateLabel("Bacon Doesn Found Game Fencing But BackDoor")
 
 		end
-end
+	end
 
 if	not getgenv().UpdateMode == nil then
 
@@ -915,21 +923,7 @@ if getgenv().UpdateMode then
 	
 	local Label = Tab:CreateLabel("My Expliot To New Add Scripts :D")
 	
-	local Label = Tab:CreateLabel("✅Is Done /❌Is Starts Update To Sunday Or Night / 🚫Is No Server To Has Executor")
-	
-	local Label = Tab:CreateLabel("BIG Paintball! 🔫 ✅")
-	
-	local Label = Tab:CreateLabel("Phantom✅")
-	
-	local Label = Tab:CreateLabel("Pet Simulator ✅")
-	
-	local Label = Tab:CreateLabel("Bloxing Legue ✅")
-	
-	local Label = Tab:CreateLabel("KAT ✅")
-	
-	local Label = Tab:CreateLabel("Bacon To New Windows :D")
-	
-	local Label = Tab:CreateLabel("Fencing But BackDoor🚫")
+	local Label = Tab:CreateLabel("Bacon Has Update Done You Can Set UpdateMode = false")
 
 		end
 end

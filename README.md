@@ -1,3 +1,6 @@
+local player = game.Players.LocalPlayer
+local PlaceId = game.PlaceId
+
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
 local Window = Rayfield:CreateWindow({
    Name = "BaconHub🥓 / Bacon-ARWE",
@@ -43,7 +46,13 @@ Rayfield:Notify({
 		},
 	},
 })
-	
+
+local Tab = Window:CreateTab("Account", 4483362458)
+
+local Label = Tab:CreateLabel("Welcome "..player.Name.." To BaconHub🥓 / Bacon-ARWE ")
+
+local Label = Tab:CreateLabel("Game Place Id : "..PlaceId.."")
+
 local Tab = Window:CreateTab("Credit", 4483362458)
 
 local Label = Tab:CreateLabel("This Hub , Code Credit By BaconHub#1055.")
@@ -56,7 +65,7 @@ local Label = Tab:CreateLabel("Developer Scripts")
 
 local Label = Tab:CreateLabel("BaconHub#1055 / skp#4687")
 
-local Tab = Window:CreateTab("Home", 4483362458)
+local Tab = Window:CreateTab("Scripts", 4483362458)
 
 local Paragraph = Tab:CreateParagraph({Title = "All Scripts", Content = "V V V V V V"})
 

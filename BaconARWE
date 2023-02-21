@@ -1,5 +1,5 @@
 if	not getgenv().Executor == nil then
-	game.Players.LocalPlayer:Kick("Bacon Deteced You Delete Executor")
+	
 	else
 	
 	if getgenv().Executor then

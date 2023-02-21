@@ -1,3 +1,59 @@
+if	not getgenv().Executor == nil then
+	game.Players.LocalPlayer:Kick("Bacon Deteced You Delete Executor")
+	else
+	
+	if getgenv().Executor then
+	
+local F = identifyexecutor()
+if cocoz then
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+elseif trigon then 
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+elseif kiwi then
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+elseif oxygen then
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+elseif krnl then
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+elseif jjspliot then
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+elseif syn then
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+elseif ScriptWare then
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+elseif Danspliot then
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+elseif Comet then
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+elseif Rainer then
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+elseif electron then
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+elseif Evon then
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+elseif Hydrogen then
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+elseif F == "Fluxus" then
+	getgenv().FrameMode = true
+	getgenv().UpdateMode = true
+end
+		end
+	end
+	
 local player = game.Players.LocalPlayer
 local PlaceId = game.PlaceId
 
@@ -32,6 +88,7 @@ local Window = Rayfield:CreateWindow({
 	else
 	
 	if getgenv().FrameMode then
+	
 Rayfield:Notify({
 	Title = "BaconHub",
 	Content = "Bacon Hub .Scripts Better No Error Code Check Error Code in Console",
@@ -924,7 +981,6 @@ local Label = Tab:CreateLabel("Bacon Doesn Found Game Fencing But BackDoor")
 
 		end
 	end
-
 if	not getgenv().UpdateMode == nil then
 
 	else

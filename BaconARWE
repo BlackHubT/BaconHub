@@ -6,48 +6,78 @@ if	not getgenv().Executor == nil then
 	
 local F = identifyexecutor()
 if cocoz then
+print("Bacon Deteced You Executor Cocoz")
+
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif trigon then 
+print("Bacon Deteced You Executor Trigon")
+
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif kiwi then
+print("Bacon Deteced You Executor Kiwi")
+
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif oxygen then
+print("Bacon Deteced You Executor Oxygen")
+
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif krnl then
+print("Bacon Deteced You Executor Krnl / Wait You Wana Has Ban By Roblox ?")
+
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif jjspliot then
+print("Bacon Deteced You Executor JJspliot")
+
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif syn then
+print("Bacon Deteced You Executor Synapse X")
+
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif ScriptWare then
+print("Bacon Deteced You Executor ScriptWare")
+
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif Danspliot then
+print("Bacon Deteced You Executor Danspliot")
+
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif Comet then
+print("Bacon Deteced You Executor Comet")
+
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif Rainer then
+print("Bacon Deteced You Executor Rainer")
+
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif electron then
+print("Bacon Deteced You Executor Electron")
+
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif Evon then
+print("Bacon Deteced You Executor Evon")
+
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif Hydrogen then
+print("Bacon Deteced You Executor Hydrogen")
+
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif F == "Fluxus" then
+	print("Bacon Deteced You Executor Fluxus / Support")
+
 	getgenv().FrameMode = true
 	getgenv().UpdateMode = true
 end

@@ -75,6 +75,12 @@ print("Bacon Deteced You Executor Hydrogen")
 
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
+elseif Hydrogen then
+print("Bacon Deteced You Executor Furk")
+
+getgenv().FrameMode = true
+getgenv().UpdateMode = true
+
 elseif F == "Fluxus" then
 	print("Bacon Deteced You Executor Fluxus / Support")
 

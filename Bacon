@@ -3,7 +3,7 @@ if	not getgenv().Executor == nil then
 	else
 	
 	if getgenv().Executor then
-	
+
 local F = identifyexecutor()
 if cocoz then
 print("Bacon Deteced You Executor Cocoz")
@@ -87,9 +87,9 @@ elseif F == "Fluxus" then
 	getgenv().FrameMode = true
 	getgenv().UpdateMode = true
 end
-		end
+		end	
 	end
-	
+
 local player = game.Players.LocalPlayer
 local PlaceId = game.PlaceId
 
@@ -124,7 +124,8 @@ local Window = Rayfield:CreateWindow({
 	else
 	
 	if getgenv().FrameMode then
-	
+local client = identifyexecutor()
+
 Rayfield:Notify({
 	Title = "BaconHub",
 	Content = "Bacon Hub .Scripts Better No Error Code Check Error Code in Console",
@@ -145,6 +146,8 @@ local Tab = Window:CreateTab("Home", 9792462652)
 local Label = Tab:CreateLabel("Welcome "..player.Name.." To BaconHub🥓 / Bacon-ARWE ")
 
 local Label = Tab:CreateLabel("Game Place Id : "..PlaceId.." ")
+
+local Label = Tab:CreateLabel("Expliot Executor : "..client.." ")
 
 local Tab = Window:CreateTab("Credit", 9766675093)
 

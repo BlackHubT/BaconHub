@@ -298,11 +298,27 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "Furk Main - Doors",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/doors"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "Furk Main - Blox Frutis",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/bf", true))()
    end,
 })
+
+local Button = Tab:CreateButton({
+   Name = "NukeVsCity",
+   Callback = function()
+   _G.key = " key "
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+   end,
+})
+
 
 local Tab = Window:CreateTab("Scripts UI", 9792634811)
 
@@ -1022,8 +1038,79 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Fencing But BackDoor", 4483362458)
-local Label = Tab:CreateLabel("Bacon Doesn Found Game Fencing But BackDoor")
+local Tab = Window:CreateTab("Ninja Lengeds", 4483362458)
+
+local Button = Tab:CreateButton({
+   Name = "https://pastebin.com/b3J1n1PD",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/b3J1n1PD"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "https://pastebin.com/h63Rfkme",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/h63Rfkme"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "HydraVirgo",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/HydraVirgo/ninjalegendsfreegui/main/obfusc", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "DinosaurXxX",
+   Callback = function()
+   loadstring(game:HttpGet("https://gist.github.com/DinosaurXxX/af513885a10b9db47154f75ce04f7eb8", true))()
+   end,
+})
+
+local Tab = Window:CreateTab("Shindo Life", 4483362458)
+local Button = Tab:CreateButton({
+   Name = "Project Verlarious",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt2625/pjv/main/Shindo.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "VG Hub",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "SnowHub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Web/main/scripts/SnxwHub.txt"))() 
+   end,
+})
+
+local Tab = Window:CreateTab("Sonic Speed Simulator", 4483362458)
+local Button = Tab:CreateButton({
+   Name = "Luciquad",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Luciquad/credit/main/sonicspeedsimulator.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "SkaysGG-2095",
+   Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-SkaysGG-2095"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "kkeyy-hash",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/kkeyy-hash/roblox/main/SonicSpeedSimulator.lua'))()
+   end,
+})
 
 		end
 	end
@@ -1034,9 +1121,17 @@ if	not getgenv().UpdateMode == nil then
 if getgenv().UpdateMode then
 	local Tab = Window:CreateTab("Update", 4483362458)
 	
-	local Label = Tab:CreateLabel("My Expliot To New Add Scripts :D")
+	local Label = Tab:CreateLabel("BaconHub Has Add Scripts")
 	
-	local Label = Tab:CreateLabel("Bacon Has Update Done You Can Set UpdateMode = false")
+	local Label = Tab:CreateLabel("Add NukevsCity ✅")
+	
+	local Label = Tab:CreateLabel("Add Furk Doors Main ✅")
+	
+	local Label = Tab:CreateLabel("Add Sonic Speed Simulator ✅")
+	
+	local Label = Tab:CreateLabel("Add Ninja Lengeds✅")
+	
+	local Label = Tab:CreateLabel("Add Shindo Life ✅")
 
 		end
 end

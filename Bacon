@@ -207,8 +207,15 @@ local Label = Tab:CreateLabel("Phantom")
 local Label = Tab:CreateLabel("Pet Simulator ")
 	
 local Label = Tab:CreateLabel("Bloxing Legue ")
-	
-local Label = Tab:CreateLabel("KAT ")
+
+local Label = Tab:CreateLabel("KAT")
+
+local Label = Tab:CreateLabel("Ninja Lengeds")
+
+local Label = Tab:CreateLabel("Shindo Life")
+
+local Label = Tab:CreateLabel("Sonic Speed Simulator")
+
 
 local Tab = Window:CreateTab("Executors", 4483362458)
 

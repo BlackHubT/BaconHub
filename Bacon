@@ -147,12 +147,12 @@ local Label = Tab:CreateLabel("Welcome "..player.Name.." To BaconHub🥓 / Bacon
 
 local Label = Tab:CreateLabel("Game Place Id : "..PlaceId.." ")
 
-local Label = Tab:CreateLabel("Expliot Executor : "..client.." ")
-
 local Button = Tab:CreateButton({
-   Name = "Crash (My Self For You)",
+   Name = "Crash (No Notify Crash Expliot / PC💻🖥)",
    Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+   while true do
+   	print("The Us Are Died Bacon")
+   end
    end,
 })
 

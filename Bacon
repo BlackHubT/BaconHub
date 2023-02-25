@@ -1,5 +1,9 @@
+local player = game.Players.LocalPlayer
+local PlaceId = game.PlaceId
+local client = identifyexecutor()
+
 if	not getgenv().Executor == nil then
-	
+	player:Kick("Bacon Deteced You Delete My Executor Mode")
 	else
 	
 	if getgenv().Executor then
@@ -90,9 +94,6 @@ end
 		end	
 	end
 
-local player = game.Players.LocalPlayer
-local PlaceId = game.PlaceId
-
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
 local Window = Rayfield:CreateWindow({
    Name = "BaconHub🥓 / Bacon-ARWE",
@@ -124,11 +125,10 @@ local Window = Rayfield:CreateWindow({
 	else
 	
 	if getgenv().FrameMode then
-local client = identifyexecutor()
 
 Rayfield:Notify({
 	Title = "BaconHub",
-	Content = "Bacon Hub .Scripts Better No Error Code Check Error Code in Console",
+	Content = "Bacon Hub .Scripts Better No Error Code Check Error Scripts Code in Console",
 	Duration = 7,
 	Image = 4483362458,
 	Actions = { 
@@ -223,7 +223,7 @@ local Paragraph = Tab:CreateParagraph({Title = "Icon Working", Content = "Statue
 
 local Label = Tab:CreateLabel("Fluxus | [Green] [Yellow] [Blocker] ")
 
-local Label = Tab:CreateLabel("Coco z | [Yellow] [Blocker] ")
+local Label = Tab:CreateLabel("Coco z | Has Been Delete In WeAreDevs And Website")
 
 local Label = Tab:CreateLabel("Krnl | [Green] [Blocker] [Anti] ")
 
@@ -1128,17 +1128,7 @@ if	not getgenv().UpdateMode == nil then
 if getgenv().UpdateMode then
 	local Tab = Window:CreateTab("Update", 4483362458)
 	
-	local Label = Tab:CreateLabel("BaconHub Has Add Scripts")
-	
-	local Label = Tab:CreateLabel("Add NukevsCity ✅")
-	
-	local Label = Tab:CreateLabel("Add Furk Doors Main ✅")
-	
-	local Label = Tab:CreateLabel("Add Sonic Speed Simulator ✅")
-	
-	local Label = Tab:CreateLabel("Add Ninja Lengeds✅")
-	
-	local Label = Tab:CreateLabel("Add Shindo Life ✅")
+	local Label = Tab:CreateLabel("Bacon Has Done Update :D")
 
 		end
 end

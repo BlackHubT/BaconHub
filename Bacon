@@ -1,3 +1,28 @@
+local verison = "V7.5"
+local Main = "Loading UI System"
+local Player = "1/5 Local File Players Name"
+local Frame = "2/5 Frame UI , Animation , Icon , Developer , Credit , Home"
+local Executor = "3/5 Loading Windows Scripts , Executors , BestScripts , Scripts UI"
+local Check = "4/5 Check Update ...."
+local Update = "5/5 Update Has Been Done "
+local Staters = "Bacon Is Loading"
+
+print("Frame Is Loading .....")
+wait(2)
+print("Verison : "..verison.."")
+wait(3)
+print(""..Player.."")
+wait(1)
+print(""..Frame.."")
+wait(2)
+print(""..Executor.."")
+wait(4)
+print(""..Check.."")
+wait(1)
+print(""..Update.."")
+wait(2)
+print(""..Staters.."")
+
 local player = game.Players.LocalPlayer
 local PlaceId = game.PlaceId
 local client = identifyexecutor()
@@ -81,7 +106,6 @@ getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif Furk then
 print("Bacon Deteced You Executor Furk")
-
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 
@@ -1045,7 +1069,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Ninja Lengeds", 4483362458)
+local Section = Tab:CreateSection("Ninja Lengeds")
 
 local Button = Tab:CreateButton({
    Name = "https://pastebin.com/b3J1n1PD",
@@ -1075,7 +1099,8 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Shindo Life", 4483362458)
+local Section = Tab:CreateSection("Shindo Life")
+
 local Button = Tab:CreateButton({
    Name = "Project Verlarious",
    Callback = function()
@@ -1097,7 +1122,8 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Sonic Speed Simulator", 4483362458)
+local Section = Tab:CreateSection("Sonic Speed Simulator")
+
 local Button = Tab:CreateButton({
    Name = "Luciquad",
    Callback = function()
@@ -1128,7 +1154,7 @@ if	not getgenv().UpdateMode == nil then
 if getgenv().UpdateMode then
 	local Tab = Window:CreateTab("Update", 4483362458)
 	
-	local Label = Tab:CreateLabel("Bacon Has Done Update :D")
-
+	local Label = Tab:CreateLabel("BaconHub Has Update Done")
+	
 		end
 end

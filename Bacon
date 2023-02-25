@@ -5,7 +5,7 @@ local Frame = "2/5 Frame UI , Animation , Icon , Developer , Credit , Home"
 local Executor = "3/5 Loading Windows Scripts , Executors , BestScripts , Scripts UI"
 local Check = "4/5 Check Update ...."
 local Update = "5/5 Update Has Been Done "
-local Staters = "Bacon Is Loading"
+local Staters = "BaconHub Is Starters In 3 Seaconds"
 
 print("Frame Is Loading .....")
 wait(2)
@@ -22,6 +22,7 @@ wait(1)
 print(""..Update.."")
 wait(2)
 print(""..Staters.."")
+wait(3)
 
 local player = game.Players.LocalPlayer
 local PlaceId = game.PlaceId
@@ -171,8 +172,10 @@ local Label = Tab:CreateLabel("Welcome "..player.Name.." To BaconHub🥓 / Bacon
 
 local Label = Tab:CreateLabel("Game Place Id : "..PlaceId.." ")
 
+local Label = Tab:CreateLabel(""..player.Name.." Executor : "..client.." ")
+
 local Button = Tab:CreateButton({
-   Name = "Crash (No Notify Crash Expliot / PC💻🖥)",
+   Name = "Crash (No Notify Crash Expliot / PC💻🖥/Ipad 📱Samsung,IOS)",
    Callback = function()
    while true do
    	print("The Us Are Died Bacon")

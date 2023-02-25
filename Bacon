@@ -51,7 +51,7 @@ print("Bacon Deteced You Executor Kiwi")
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 elseif oxygen then
-print("Bacon Deteced You Executor Oxygen")
+print("Bacon Deteced You Executor Oxygen / Support")
 
 getgenv().FrameMode = true
 getgenv().UpdateMode = true

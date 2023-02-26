@@ -116,7 +116,7 @@ elseif F == "Fluxus" then
 	getgenv().FrameMode = true
 	getgenv().UpdateMode = true
 end
-		end	
+		end
 	end
 
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
@@ -1159,7 +1159,15 @@ if	not getgenv().UpdateMode == nil then
 if getgenv().UpdateMode then
 	local Tab = Window:CreateTab("Update", 4483362458)
 	
-	local Label = Tab:CreateLabel("BaconHub Has Update Done")
+	local Label = Tab:CreateLabel("Bacon Has New Update :D")
+
+   local Label = Tab:CreateLabel("[EVENT] Race Clicker")
+
+   local Label = Tab:CreateLabel("Zombie Uprising")
+
+   local Label = Tab:CreateLabel("Clone Tycoon 2")
+
+   local Label = Tab:CreateLabel("Evade")
 	
 		end
 end

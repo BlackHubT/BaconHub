@@ -1,3 +1,4 @@
+--System Local
 local verison = "V7.5"
 local Main = "Loading UI System"
 local Player = "1/5 Local File Players Name"
@@ -187,6 +188,13 @@ local Button = Tab:CreateButton({
    while true do
    	print("The Us Are Died Bacon")
    end
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Close GUI ArrayFlied",
+   Callback = function()
+	Rayfield:Destroy()
    end,
 })
 
@@ -1183,6 +1191,10 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "6FootHub / Has Kick To keybind",
    Callback = function()
+   Rayfield:Destroy()
+   
+   wait(4)
+   
    loadstring(game:HttpGet('https://www.6footscripts.com/Scripts/6FootHub/Hub.lua'))();
    end,
 })

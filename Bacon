@@ -191,13 +191,6 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Button = Tab:CreateButton({
-   Name = "Close GUI ArrayFlied",
-   Callback = function()
-	Rayfield:Destroy()
-   end,
-})
-
 local Tab = Window:CreateTab("Credit", 9766675093)
 
 local Label = Tab:CreateLabel("This Hub , Code Credit By BaconHub#1055.")
@@ -1191,18 +1184,60 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "6FootHub / Has Kick To keybind",
    Callback = function()
-   Rayfield:Destroy()
-   
-   wait(4)
-   
-   loadstring(game:HttpGet('https://www.6footscripts.com/Scripts/6FootHub/Hub.lua'))();
+   Rayfield:Notify({
+	Title = "BaconHub",
+	Content = "Bacon Hub Send To Button Clicker To Copy By "..player.." Close My Array Filed Is You Has Kick And Rejoin Don Use Array And Executor Scripts Has Copy",
+	Duration = 7,
+	Image = 4483362458,
+	Actions = { 
+		Ignore = {
+			Name = "Clicker Me To Copy",
+			Callback = function()
+				setclipboard("loadstring(game:HttpGet('https://www.6footscripts.com/Scripts/6FootHub/Hub.lua'))();")
+			end
+		},
+	},
+})
    end,
 })
 
 
 local Section = Tab:CreateSection("Clone Tycoon 2")
 
-local Section = Tab:CreateSection("Bacon Delete Button Inf Conit By Error Code")
+local Button = Tab:CreateButton({
+   Name = "6FootHub / Has Kick To keybind",
+   Callback = function()
+   Rayfield:Notify({
+	Title = "BaconHub",
+	Content = "Bacon Hub Send To Button Clicker To Copy "..player.." And Paste In Executor And Need Seel Ore And Is Work But Is Fake Conit But Buy Is Work",
+	Duration = 7,
+	Image = 4483362458,
+	Actions = { 
+		Ignore = {
+			Name = "Clicker Me To Copy",
+			Callback = function()
+				setclipboard("       local Base = game:GetService("Workspace").Tycoons
+local LocalPlayer = game:GetService'Players'.LocalPlayer
+local Name = LocalPlayer.Name
+while true do
+   workspace.Events.DataStores.uhoh:FireServer('mine', 'Diamonds')
+   workspace.Events.DataStores.uhoh:FireServer('mine', 'Gold')
+   workspace.Events.DataStores.uhoh:FireServer('mine', 'Iron')
+   workspace.Events.DataStores.uhoh:FireServer('mine', 'Coal')
+   for _, Child in next, Base:GetChildren() do
+       if Child.Factory.Player.Value == Name then
+           fireproximityprompt(Child.Factory.Objects.BoughtItems['Ore Refinery'].SpellVortex.Main.Attachment.SellOres)
+       end
+   end
+   task.wait()
+end
+end)")
+			end
+		},
+	},
+})
+   end,
+})
 
 local Button = Tab:CreateButton({
    Name = "Inf Dimation",
@@ -1214,7 +1249,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "https://paste.ee/r/N0fo7/0",
    Callback = function()
-   task.spawn(loadstring(game:HttpGet("https://paste.ee/r/N0fo7/0")),[[also if it doesn't load look in the console for some warns / errors]])
+   task.spawn(loadstring(game:HttpGet("https://paste.ee/r/N0fo7/0")),[[UI Doesn Not Work Will Check Console]])
    end,
 })
 

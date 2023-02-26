@@ -1181,26 +1181,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Button = Tab:CreateButton({
-   Name = "6FootHub / Has Kick To keybind",
-   Callback = function()
-   Rayfield:Notify({
-	Title = "BaconHub",
-	Content = "Bacon Hub Send To Button Clicker To Copy By "..player.." Close My Array Filed Is You Has Kick And Rejoin Don Use Array And Executor Scripts Has Copy",
-	Duration = 7,
-	Image = 4483362458,
-	Actions = { 
-		Ignore = {
-			Name = "Clicker Me To Copy",
-			Callback = function()
-				setclipboard("loadstring(game:HttpGet('https://www.6footscripts.com/Scripts/6FootHub/Hub.lua'))();")
-			end
-		},
-	},
-})
-   end,
-})
-
+local Section = Tab:CreateSection("6foothub delete by Keybinds Error But No Executor ArrayFiled")
 
 local Section = Tab:CreateSection("Clone Tycoon 2")
 

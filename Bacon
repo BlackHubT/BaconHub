@@ -1181,7 +1181,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "6FootHub",
+   Name = "6FootHub / Has Kick To keybind",
    Callback = function()
    loadstring(game:HttpGet('https://www.6footscripts.com/Scripts/6FootHub/Hub.lua'))();
    end,
@@ -1190,27 +1190,7 @@ local Button = Tab:CreateButton({
 
 local Section = Tab:CreateSection("Clone Tycoon 2")
 
-local Button = Tab:CreateButton({
-   Name = "Inf Conits / Need Bulid Sell Ore",
-   Callback = function()
-       local Base = game:GetService("Workspace").Tycoons
-local LocalPlayer = game:GetService'Players'.LocalPlayer
-local Name = LocalPlayer.Name
-while true do
-   workspace.Events.DataStores.uhoh:FireServer('mine', 'Diamonds')
-   workspace.Events.DataStores.uhoh:FireServer('mine', 'Gold')
-   workspace.Events.DataStores.uhoh:FireServer('mine', 'Iron')
-   workspace.Events.DataStores.uhoh:FireServer('mine', 'Coal')
-   for _, Child in next, Base:GetChildren() do
-       if Child.Factory.Player.Value == Name then
-           fireproximityprompt(Child.Factory.Objects.BoughtItems['Ore Refinery'].SpellVortex.Main.Attachment.SellOres)
-       end
-   end
-   task.wait()
-end
-end)
-   end,
-})
+local Section = Tab:CreateSection("Bacon Delete Button Inf Conit By Error Code")
 
 local Button = Tab:CreateButton({
    Name = "Inf Dimation",

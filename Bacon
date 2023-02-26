@@ -6,6 +6,17 @@ local Executor = "3/5 Loading Windows Scripts , Executors , BestScripts , Script
 local Check = "4/5 Check Update ...."
 local Update = "5/5 Update Has Been Done "
 local Staters = "BaconHub Is Starters In 3 Seaconds"
+local Error = "Baconhub Has Error To You Delete getgenv().Executor = true or set getgenv().Executor = false"
+--Players
+local player = game.Players.LocalPlayer
+local PlaceId = game.PlaceId
+local client = identifyexecutor()
+
+if	not getgenv().Executor == nil then
+	
+	else
+	
+	if getgenv().Executor then
 
 print("Frame Is Loading .....")
 wait(2)
@@ -24,15 +35,7 @@ wait(2)
 print(""..Staters.."")
 wait(3)
 
-local player = game.Players.LocalPlayer
-local PlaceId = game.PlaceId
-local client = identifyexecutor()
 
-if	not getgenv().Executor == nil then
-	player:Kick("Bacon Deteced You Delete My Executor Mode")
-	else
-	
-	if getgenv().Executor then
 
 local F = identifyexecutor()
 if cocoz then
@@ -118,6 +121,7 @@ elseif F == "Fluxus" then
 end
 		end
 	end
+	
 
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
 local Window = Rayfield:CreateWindow({
@@ -150,6 +154,7 @@ local Window = Rayfield:CreateWindow({
 	else
 	
 	if getgenv().FrameMode then
+	
 
 Rayfield:Notify({
 	Title = "BaconHub",
@@ -1150,6 +1155,52 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Section = Tab:CreateSection("[EVENT] Race Clicker")
+
+local Button = Tab:CreateButton({
+   Name = "Deni210",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/raceclicker/main/RubyHubv1.0", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "boomcacas",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/boomcacas/androminome/main/hub"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Evade")
+
+local Button = Tab:CreateButton({
+   Name = "Robobo2022",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Robobo2022/script/main/EVADE.lua",true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "zReal-King",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "",
+   Callback = function()
+   
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "",
+   Callback = function()
+   
+   end,
+})
+
 		end
 	end
 if	not getgenv().UpdateMode == nil then
@@ -1166,8 +1217,6 @@ if getgenv().UpdateMode then
    local Label = Tab:CreateLabel("Zombie Uprising")
 
    local Label = Tab:CreateLabel("Clone Tycoon 2")
-
-   local Label = Tab:CreateLabel("Evade")
 	
 		end
 end

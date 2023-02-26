@@ -1186,41 +1186,6 @@ local Section = Tab:CreateSection("6foothub delete by Keybinds Error But No Exec
 local Section = Tab:CreateSection("Clone Tycoon 2")
 
 local Button = Tab:CreateButton({
-   Name = "6FootHub / Has Kick To keybind",
-   Callback = function()
-   Rayfield:Notify({
-	Title = "BaconHub",
-	Content = "Bacon Hub Send To Button Clicker To Copy "..player.." And Paste In Executor And Need Seel Ore And Is Work But Is Fake Conit But Buy Is Work",
-	Duration = 7,
-	Image = 4483362458,
-	Actions = { 
-		Ignore = {
-			Name = "Clicker Me To Copy",
-			Callback = function()
-				setclipboard("       local Base = game:GetService("Workspace").Tycoons
-local LocalPlayer = game:GetService'Players'.LocalPlayer
-local Name = LocalPlayer.Name
-while true do
-   workspace.Events.DataStores.uhoh:FireServer('mine', 'Diamonds')
-   workspace.Events.DataStores.uhoh:FireServer('mine', 'Gold')
-   workspace.Events.DataStores.uhoh:FireServer('mine', 'Iron')
-   workspace.Events.DataStores.uhoh:FireServer('mine', 'Coal')
-   for _, Child in next, Base:GetChildren() do
-       if Child.Factory.Player.Value == Name then
-           fireproximityprompt(Child.Factory.Objects.BoughtItems['Ore Refinery'].SpellVortex.Main.Attachment.SellOres)
-       end
-   end
-   task.wait()
-end
-end)")
-			end
-		},
-	},
-})
-   end,
-})
-
-local Button = Tab:CreateButton({
    Name = "Inf Dimation",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Slothswithaids/clonetycoon2/main/infgems'))()

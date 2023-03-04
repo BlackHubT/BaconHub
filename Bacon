@@ -6,7 +6,7 @@ local Frame = "2/5 Frame UI , Animation , Icon , Developer , Credit , Home"
 local Executor = "3/5 Loading Windows Scripts , Executors , BestScripts , Scripts UI"
 local Check = "4/5 Check Update ...."
 local Update = "5/5 Update Has Been Done "
-local Staters = "BaconHub Is Starters In 3 Seaconds"
+local Staters = "BaconHub Is Starters In 1 Seaconds"
 local Error = "Baconhub Has Error To You Delete getgenv().Executor = true or set getgenv().Executor = false"
 --Players
 local player = game.Players.LocalPlayer
@@ -22,23 +22,20 @@ if	not getgenv().Executor == nil then
 print("Frame Is Loading .....")
 wait(2)
 print("Verison : "..verison.."")
-wait(3)
-print(""..Player.."")
 wait(1)
-print(""..Frame.."")
+print(""..Player.."")
 wait(2)
+print(""..Frame.."")
+wait(1)
 print(""..Executor.."")
-wait(4)
+wait(1)
 print(""..Check.."")
 wait(1)
 print(""..Update.."")
 wait(2)
 print(""..Staters.."")
-wait(3)
+wait(1)
 
-
-
-local F = identifyexecutor()
 if cocoz then
 print("Bacon Deteced You Executor Cocoz")
 
@@ -114,7 +111,7 @@ print("Bacon Deteced You Executor Furk")
 getgenv().FrameMode = true
 getgenv().UpdateMode = true
 
-elseif F == "Fluxus" then
+elseif Fluxus then
 	print("Bacon Deteced You Executor Fluxus / Support")
 
 	getgenv().FrameMode = true
@@ -1191,7 +1188,6 @@ local Button = Tab:CreateButton({
 
 local Section = Tab:CreateSection("Clone Tycoon 2")
 
-
 local Button = Tab:CreateButton({
    Name = "Inf Dimation",
    Callback = function()
@@ -1216,7 +1212,14 @@ if	not getgenv().UpdateMode == nil then
 if getgenv().UpdateMode then
 	local Tab = Window:CreateTab("Update", 4483362458)
 	
-	local Label = Tab:CreateLabel("Bacon Has Update Done :D")
+	local Label = Tab:CreateLabel("Bacon Has New Update :D")
 	
+	local Label = Tab:CreateLabel("Add Owl Hub In Best Scripts")
+	
+	local Label = Tab:CreateLabel("Fix Name Nukuro Hub To Mukuro Hub In Scripts UI")
+		
+	local Label = Tab:CreateLabel("Fix Eclipse V2 To Eclipse V8.8 In Scripts UI")
+
+
 		end
 end

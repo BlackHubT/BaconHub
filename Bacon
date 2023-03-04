@@ -491,7 +491,7 @@ local Button = Tab:CreateButton({
 local Section = Tab:CreateSection("Murder mystery 2")
 
 local Button = Tab:CreateButton({
-   Name = "Eclipse V2",
+   Name = "Eclipse V8.8",
    Callback = function()
    getgenv().mainKey = "nil"
 
@@ -1220,6 +1220,6 @@ if getgenv().UpdateMode then
 		
 	local Label = Tab:CreateLabel("Fix Eclipse V2 To Eclipse V8.8 In Scripts UI")
 
-
+	local Label = Tab:CreateLabel("Add Eclipse In Best Scripts")
 		end
 end

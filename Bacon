@@ -1211,14 +1211,6 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Button = Tab:CreateButton({
-   Name = "https://paste.ee/r/N0fo7/0",
-   Callback = function()
-   task.spawn(loadstring(game:HttpGet("https://paste.ee/r/N0fo7/0")),[[also if it doesn't load look in the console for some warns / errors]])
-   end,
-})
-
-
 		end
 	end
 if	not getgenv().UpdateMode == nil then
@@ -1238,6 +1230,6 @@ if getgenv().UpdateMode then
 		
 	local Label = Tab:CreateLabel("Fix Eclipse V2 To Eclipse V8.8 In Scripts UI")
 
-	local Label = Tab:CreateLabel("Add Eclipse In Best Scripts")
+	local Label = Tab:CreateLabel("Delete 1 Scripts In Clone Tycoon")
 		end
 end

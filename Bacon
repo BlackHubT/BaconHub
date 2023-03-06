@@ -248,6 +248,7 @@ local Label = Tab:CreateLabel("Shindo Life")
 
 local Label = Tab:CreateLabel("Sonic Speed Simulator")
 
+local Label = Tab:CreateLabel("Clone Tycoon / Rip :(")
 
 local Tab = Window:CreateTab("Executors", 4483362458)
 

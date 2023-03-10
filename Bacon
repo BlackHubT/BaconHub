@@ -1,3 +1,4 @@
+getgenv().Executor = true
 --System Local
 local verison = "V7.8"
 local Main = "Loading UI System"
@@ -18,189 +19,6 @@ if	not getgenv().Executor == nil then
 	else
 	
 	if getgenv().Executor then
-local ImpostorGui = Instance.new("ScreenGui")
-local CustomConsoleBG = Instance.new("Frame")
-local LogsText = Instance.new("TextBox")
-local ClearLogs = Instance.new("TextButton")
-local CopyLogs = Instance.new("TextButton")
-
-function randomString(leng, seed) --does this even do anything?
-
-	local array = {}
-
-	for i = 0, leng do
-		local leNumberPlus = (math.floor((i*6)*(256^2)))
-		math.randomseed(seed+leNumberPlus)
-		array[i] = string.char(math.random(33, 126))
-
-	end
-
-	return table.concat(array)
-
-end
-
-ImpostorGui.Name = randomString(12, 0)
-ImpostorGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-
-CustomConsoleBG.Name = randomString(12, 40)
-CustomConsoleBG.Parent = ImpostorGui
-CustomConsoleBG.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CustomConsoleBG.BorderColor3 = Color3.fromRGB(255, 0, 0)
-CustomConsoleBG.BorderSizePixel = 2
-CustomConsoleBG.Position = UDim2.new(0.60392499, 0, 0.533521414, 0)
-CustomConsoleBG.Size = UDim2.new(0, 410, 0, 245)
-CustomConsoleBG.Visible = true
-CustomConsoleBG.ZIndex = -1
-
-LogsText.Name = randomString(12, 41)
-LogsText.Parent = CustomConsoleBG
-LogsText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-LogsText.BorderColor3 = Color3.fromRGB(255, 0, 0)
-LogsText.BorderSizePixel = 2
-LogsText.Selectable = false
-LogsText.TextEditable = false
-LogsText.Size = UDim2.new(0, 410, 0, 175)
-LogsText.ClearTextOnFocus = false
-LogsText.Font = Enum.Font.Ubuntu
-LogsText.MultiLine = true
-LogsText.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
-LogsText.Text = "Logs"
-LogsText.TextColor3 = Color3.fromRGB(255, 0, 0)
-LogsText.TextSize = 14.000
-LogsText.TextWrapped = true
-
-ClearLogs.Name = randomString(12, 42)
-ClearLogs.Parent = CustomConsoleBG
-ClearLogs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ClearLogs.BackgroundTransparency = 0.850
-ClearLogs.BorderColor3 = Color3.fromRGB(255, 255, 255)
-ClearLogs.Position = UDim2.new(0.546975613, 0, 0.754999995, 0)
-ClearLogs.Size = UDim2.new(0, 150, 0, 50)
-ClearLogs.Font = Enum.Font.Ubuntu
-ClearLogs.Text = "Clear"
-ClearLogs.TextColor3 = Color3.fromRGB(255, 255, 255)
-ClearLogs.TextSize = 16.000
-
-CopyLogs.Name = randomString(12, 43)
-CopyLogs.Parent = CustomConsoleBG
-CopyLogs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CopyLogs.BackgroundTransparency = 0.850
-CopyLogs.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CopyLogs.Position = UDim2.new(0.0876097605, 0, 0.754999995, 0)
-CopyLogs.Size = UDim2.new(0, 150, 0, 50)
-CopyLogs.Font = Enum.Font.Ubuntu
-CopyLogs.Text = "Copy"
-CopyLogs.TextColor3 = Color3.fromRGB(255, 255, 255)
-CopyLogs.TextSize = 16.000
-local logTable = {}
-local function FMZSUM_fake_script()
-	local script = Instance.new("LocalScript", CustomConsoleBG)
-
-	local frame = script.Parent
-	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
-
-	local keybind = "q"
-
-	mouse.KeyDown:connect(
-		function(key)
-			key = key:lower()
-			if key == keybind then
-				frame.Visible = not frame.Visible
-			end
-		end
-	)
-
-	print("Current keybind is:", keybind)
-end
-coroutine.wrap(FMZSUM_fake_script)()
-local function URYDQKV_fake_script()
-	local script = Instance.new("LocalScript", CustomConsoleBG)
-
-	local UserInputService = game:GetService("UserInputService")
-
-	local gui = script.Parent
-
-	local dragging
-	local dragInput
-	local dragStart
-	local startPos
-
-	local function update(input)
-		local delta = input.Position - dragStart
-		gui.Position =
-			UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-	end
-
-	gui.InputBegan:Connect(
-		function(input)
-			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-				dragging = true
-				dragStart = input.Position
-				startPos = gui.Position
-
-				input.Changed:Connect(
-					function()
-						if input.UserInputState == Enum.UserInputState.End then
-							dragging = false
-						end
-					end
-				)
-			end
-		end
-	)
-
-	gui.InputChanged:Connect(
-		function(input)
-			if
-				input.UserInputType == Enum.UserInputType.MouseMovement or
-				input.UserInputType == Enum.UserInputType.Touch
-			then
-				dragInput = input
-			end
-		end
-	)
-
-	UserInputService.InputChanged:Connect(
-		function(input)
-			if input == dragInput and dragging then
-				update(input)
-			end
-		end
-	)
-end
-coroutine.wrap(URYDQKV_fake_script)()
-game:GetService("LogService").MessageOut:Connect(
-function(Message)
-	repeat
-		wait(.1)
-	until Message
-	logTable[#logTable + 1] = Message
-	LogsText.Text = (table.concat(logTable, "\n"))
-	for i, v in pairs(logTable) do
-		if i == 5 then
-			table.remove(logTable, 1)
-		end
-	end
-end
-)
-ClearLogs.MouseButton1Click:Connect(
-	function()
-		table.remove(logTable, 4)
-		table.remove(logTable, 3)
-		table.remove(logTable, 2)
-		table.remove(logTable, 1)
-		table.remove(logTable)
-		wait(.1)
-		LogsText.Text = "Logs"
-	end
-)
-CopyLogs.MouseButton1Click:Connect(
-	function()
-		setclipboard(LogsText.Text)
-	end
-)
-
-wait(2)
 
 print("Frame Is Loading .....")
 wait(0.5)
@@ -218,32 +36,26 @@ print(""..Update.."")
 wait(0.5)
 print(""..Staters.."")
 wait(1)
-
 if cocoz then
 print("Bacon Deteced You Executor Cocoz")
 
 getgenv().FrameMode = true
-getgenv().UpdateMode = true
 elseif trigon then 
 print("Bacon Deteced You Executor Trigon")
 
 getgenv().FrameMode = true
-getgenv().UpdateMode = true
 elseif kiwi then
 print("Bacon Deteced You Executor Kiwi")
 
 getgenv().FrameMode = true
-getgenv().UpdateMode = true
 elseif oxygen then
 print("Bacon Deteced You Executor Oxygen / Support")
 
 getgenv().FrameMode = true
-getgenv().UpdateMode = true
 elseif krnl then
 print("Bacon Deteced You Executor Krnl / Wait You Wana Has Ban By Roblox ?")
 
 getgenv().FrameMode = true
-getgenv().UpdateMode = true
 elseif jjspliot then
 print("Bacon Deteced You Executor JJspliot")
 
@@ -253,49 +65,40 @@ elseif syn then
 print("Bacon Deteced You Executor Synapse X")
 
 getgenv().FrameMode = true
-getgenv().UpdateMode = true
 elseif ScriptWare then
 print("Bacon Deteced You Executor ScriptWare")
 
 getgenv().FrameMode = true
-getgenv().UpdateMode = true
 elseif Danspliot then
 print("Bacon Deteced You Executor Danspliot")
 
 getgenv().FrameMode = true
-getgenv().UpdateMode = true
 elseif Comet then
 print("Bacon Deteced You Executor Comet")
 
 getgenv().FrameMode = true
-getgenv().UpdateMode = true
 elseif Rainer then
 print("Bacon Deteced You Executor Rainer")
 
 getgenv().FrameMode = true
-getgenv().UpdateMode = true
 elseif electron then
 print("Bacon Deteced You Executor Electron")
 
 getgenv().FrameMode = true
-getgenv().UpdateMode = true
 elseif Evon then
 print("Bacon Deteced You Executor Evon")
 
 getgenv().FrameMode = true
-getgenv().UpdateMode = true
 elseif Hydrogen then
 player:Kick("BaconHub Is Not Support Hydrogen Else You Can Executor Fluxus Android Or PC")
 elseif Furk then
 print("Bacon Deteced You Executor Furk")
 getgenv().FrameMode = true
-getgenv().UpdateMode = true
 
 elseif Fluxus then
 	print("Bacon Deteced You Executor Fluxus / Support")
 
 	getgenv().FrameMode = true
-	getgenv().UpdateMode = true
 end
 		end
 	end
@@ -465,7 +268,11 @@ local Label = Tab:CreateLabel("Synapse X | [Green] [Red] [?]")
 
 local Label = Tab:CreateLabel("Scripts Ware X | [Green] [Red] [?]")
 
-local Tab = Window:CreateTab("BestScripts", 4483362458)
+
+
+local Tab = Window:CreateTab("Scripts UI", 9792634811)
+
+local Section = Tab:CreateSection("Best Scripts")
 
 local Button = Tab:CreateButton({
    Name = "Orca Hub",
@@ -568,9 +375,6 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bloodlxst/SkittleWare/main/Script.txt", true))()
    end,
 })
-
-local Tab = Window:CreateTab("Scripts UI", 9792634811)
-
 local Section = Tab:CreateSection("Brookhaven")
 
 local Button = Tab:CreateButton({
@@ -1392,44 +1196,10 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/boomcacas/androminome/main/hub"))()
    end,
 })
-
-local Section = Tab:CreateSection("Zombie Uprising")
-
-local Button = Tab:CreateButton({
-   Name = "SlamminPig",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Zombie%20Uprising/ZombieUprisingGUI"))()
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "6FootHub",
-   Callback = function()
-   loadstring(game:HttpGet('https://www.6footscripts.com/Scripts/6FootHub/Hub.lua'))();
-   end,
-})
-
-
-local Section = Tab:CreateSection("Clone Tycoon 2")
-
-local Button = Tab:CreateButton({
-   Name = "Inf Dimation",
-   Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/Slothswithaids/clonetycoon2/main/infgems'))()
-   end,
-})
-
 		end
 	end
-if	not getgenv().UpdateMode == nil then
-
-	else
-	
-if getgenv().UpdateMode then
 	local Tab = Window:CreateTab("Update", 4483362458)
 	
 	local Label = Tab:CreateLabel("Bacon Has New Update :D")
 	
 	local Label = Tab:CreateLabel("Add 2 Scripts In Doors")
-
-end

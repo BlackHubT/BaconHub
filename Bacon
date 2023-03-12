@@ -1,6 +1,5 @@
 --System Local
 local verison = "V7.8"
-local Main = "Loading UI System"
 local Player = "1/5 Local File Players Name"
 local Frame = "2/5 Frame UI , Animation , Icon , Developer , Credit , Home"
 local Executor = "3/5 Loading Windows Scripts , Executors , BestScripts , Scripts UI"
@@ -19,7 +18,7 @@ if	not getgenv().Executor == nil then
 	
 	if getgenv().Executor then
 
-print(""Main"")
+print("Loading UI System")
 wait(0.5)
 print("Verison : "..verison.."")
 wait(0.5)
@@ -129,7 +128,7 @@ print("Bacon Deteced You Executor Evon")
 
 getgenv().FrameMode = true
 elseif Hydrogen then
-player:Kick("BaconHub "a and b" Hydrogen Else You Can Executor Fluxus Android Or PC")
+player:Kick("BaconHub Is Not Support Hydrogen Else You Can Executor Fluxus Android Or PC")
 elseif Furk then
 print("Bacon Deteced You Executor Furk")
 getgenv().FrameMode = true

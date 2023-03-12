@@ -19,7 +19,7 @@ if	not getgenv().Executor == nil then
 	
 	if getgenv().Executor then
 
-print("Main Ui Loading .....")
+print("System Is Loading .....")
 wait(0.5)
 print("Verison : "..verison.."")
 wait(0.5)
@@ -122,7 +122,7 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "Verify Key 🔑",
       Subtitle = "Create By BaconHub#1055",
-      Note = "Join Discord Lun-Ware To Has Key BaconHub https://discord.gg/HVur6Kmf",
+      Note = "Join Discord Lun-Ware To Has Key BaconHub https://discord.gg/Y4nbsNgC",
       FileName = "BaconKey",
       SaveKey = true,
       GrabKeyFromSite = false, 
@@ -284,4 +284,4 @@ local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or
 	end
 	local Tab = Window:CreateTab("Update", 4483362458)
 	
-	local Label = Tab:CreateLabel("Bacon Has Done Update :D")
+	local Label = Tab:CreateLabel("Bacon Has New Update :D")

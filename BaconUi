@@ -17,7 +17,7 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "Verify Key 🔑",
       Subtitle = "Create By BaconHub#1055",
-      Note = "Join Discord Lun-Ware To Has Key BaconHub https://discord.gg/HVur6Kmf",
+      Note = "Join Discord Lun-Ware To Has Key BaconHub https://discord.gg/Y4nbsNgC",
       FileName = "BaconKey",
       SaveKey = true,
       GrabKeyFromSite = false, 
@@ -1010,4 +1010,4 @@ local Button = Tab:CreateButton({
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
    end,
-}) 
+})

@@ -89,7 +89,7 @@ print("Bacon Deteced You Executor Evon")
 
 getgenv().FrameMode = true
 elseif Hydrogen then
-player:Kick("BaconHub "a and b" Hydrogen Else You Can Executor Fluxus Android Or PC")
+player:Kick("BaconHub Is Not Support Hydrogen Else You Can Executor Fluxus Android Or PC")
 elseif Furk then
 print("Bacon Deteced You Executor Furk")
 getgenv().FrameMode = true
@@ -274,9 +274,7 @@ local Label = Tab:CreateLabel("Bacon Has New Update We Clicker Button And Switch
 local Button = Tab:CreateButton({
    Name = "Bacon ARWE/UI",
    Callback = function()
-	getgenv().mainKey = "nil"
-
-local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://raw.githubusercontent.com/BlackHubT/BaconHub/main/BaconUi"c(a and b,"Executor Is Not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Bacon"}}).Body)()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/BlackHubT/BaconHub/main/BaconUi', true))()
    end,
 })
 

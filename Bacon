@@ -51,7 +51,7 @@ print("Bacon Deteced You Executor Kiwi")
 
 getgenv().FrameMode = true
 elseif oxygen then
-print("Bacon Deteced You Executor Oxygen / Support")
+player:Kick("BaconHub Is Not Support OxyGen Else You Can Executor Fluxus Android Or PC")
 
 getgenv().FrameMode = true
 elseif krnl then

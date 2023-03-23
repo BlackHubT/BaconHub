@@ -51,7 +51,7 @@ print("Bacon Deteced You Executor Kiwi")
 
 getgenv().FrameMode = true
 elseif oxygen then
-player:Kick("BaconHub Is Not Support OxyGen Else You Can Executor Fluxus Android Or PC")
+print("Bacon Deteced You Executor Oxygen / Support")
 
 getgenv().FrameMode = true
 elseif krnl then
@@ -164,6 +164,13 @@ local Label = Tab:CreateLabel(""..player.Name.." Executor : "..client.." ")
 
 local Label = Tab:CreateLabel(""..player.Name.." Data Executor : "..os.date().." ")
 
+local Time = Tab:CreateLabel(""..player.Name.." Online : "..os.date().."")
+
+while true do
+wait(1)
+Time:Set(""..player.Name.." Online : "..os.date().."")
+end
+
 local Button = Tab:CreateButton({
    Name = "Crash (No Notify Crash Expliot / PC💻🖥/Ipad 📱Samsung,IOS)",
    Callback = function()
@@ -233,6 +240,9 @@ local Label = Tab:CreateLabel("Shindo Life")
 
 local Label = Tab:CreateLabel("Sonic Speed Simulator")
 
+local Label = Tab:CreateLabel("Clone Tycoon")
+
+local Label = Tab:CreateLabel("Find The Bacon / New :D")
 
 local Tab = Window:CreateTab("Executors", 4483362458)
 

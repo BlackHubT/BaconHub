@@ -1,4 +1,5 @@
 --System Local
+
 local verison = "V7.8"
 local Main = "Loading UI System"
 local Player = "1/5 Local File Players Name"
@@ -6,9 +7,11 @@ local Frame = "2/5 Frame UI , Animation , Icon , Developer , Credit , Home"
 local Executor = "3/5 Loading Windows Scripts , Executors , BestScripts , Scripts UI"
 local Check = "4/5 Check Update ...."
 local Update = "5/5 Update Has Been Done "
-local Staters = "BaconHub Is Starters In 1 Seaconds"
-local Error = "Baconhub Has Error To You Delete getgenv().Executor = true or set getgenv().Executor = false"
+local Staters = "Bacon ARWE Is Starters In 1 Seaconds"
+local Error = "Bacon ARWE Has Error To You Delete getgenv().Executor = true or set getgenv().Executor = false"
+
 --Players
+
 local player = game.Players.LocalPlayer
 local PlaceId = game.PlaceId
 local client = identifyexecutor()
@@ -18,8 +21,6 @@ if	not getgenv().Executor == nil then
 	else
 	
 	if getgenv().Executor then
-
-
 
 print("System Is Loading .....")
 wait(0.5)
@@ -92,7 +93,7 @@ print("Bacon Deteced You Executor Evon")
 
 getgenv().FrameMode = true
 elseif Hydrogen then
-player:Kick("BaconHub Is Not Support Hydrogen Else You Can Executor Fluxus Android Or PC")
+player:Kick("Bacon ARWE Is Not Support Hydrogen Else You Can Executor Fluxus Android Or PC")
 elseif Furk then
 print("Bacon Deteced You Executor Furk")
 getgenv().FrameMode = true
@@ -110,7 +111,7 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-I
 local Window = Rayfield:CreateWindow({
    Name = "Bacon ARWE🥓",
    LoadingTitle = "BaconHub is Loading Please Wait :D",
-   LoadingSubtitle = "Create by BaconHub#1055",
+   LoadingSubtitle = "Create by Bacon ARWE#1055",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, 
@@ -118,14 +119,14 @@ local Window = Rayfield:CreateWindow({
    },
    Discord = {
       Enabled = false,
-      Invite = "", 
+      Invite = "Nq6uFUtf", 
       RememberJoins = false 
    },
    KeySystem = true,
    KeySettings = {
       Title = "Verify Key 🔑",
       Subtitle = "Create By BaconHub#1055",
-      Note = "Join Discord Lun-Ware To Has Key BaconHub https://discord.gg/Y4nbsNgC",
+      Note = "Join Discord Lun To Has Key Bacon ARWE https://discord.gg/Nq6uFUtf",
       FileName = "BaconKey",
       SaveKey = true,
       GrabKeyFromSite = false, 
@@ -175,16 +176,29 @@ local Button = Tab:CreateButton({
    Name = "Crash (No Notify Crash Expliot / PC💻🖥/Ipad 📱Samsung,IOS)",
    Callback = function()
    while true do
-   	print("The Us Are Died Bacon")
+	wait(0.1)
+   	print("Bacon WARE : You Are Died / Error System Servers Hub !(*)!$@U#(@(_#@$*!U)WE(*@#!I(EWOP#(!RUJ)FU(@!IO@()*!$!@&$()!@()@#)()(#()!$)($@!(#)@!(*)@)*(#PEWKDJ(I!@)$I$!(#JRWD")
+	wait(0.1)
+   	print("Bacon WARE : You Are Died / Error System Servers Hub !(*)!$@U#(@(_#@$*!U)WE(*@#!I(EWOP#(!RUJ)FU(@!IO@()*!$!@&$()!@()@#)()(#()!$)($@!(#)@!(*)@)*(#PEWKDJ(I!@)$I$!(#JRWD")
+	wait(0.1)
+   	print("Bacon WARE : You Are Died / Error System Servers Hub !(*)!$@U#(@(_#@$*!U)WE(*@#!I(EWOP#(!RUJ)FU(@!IO@()*!$!@&$()!@()@#)()(#()!$)($@!(#)@!(*)@)*(#PEWKDJ(I!@)$I$!(#JRWD")
+	wait(0.1)
+   	print("Bacon WARE : You Are Died / Error System Servers Hub !(*)!$@U#(@(_#@$*!U)WE(*@#!I(EWOP#(!RUJ)FU(@!IO@()*!$!@&$()!@()@#)()(#()!$)($@!(#)@!(*)@)*(#PEWKDJ(I!@)$I$!(#JRWD")
+	wait(0.1)
+   	print("Bacon WARE : You Are Died / Error System Servers Hub !(*)!$@U#(@(_#@$*!U)WE(*@#!I(EWOP#(!RUJ)FU(@!IO@()*!$!@&$()!@()@#)()(#()!$)($@!(#)@!(*)@)*(#PEWKDJ(I!@)$I$!(#JRWD")
+	wait(0.1)
+   	print("Bacon WARE : You Are Died / Error System Servers Hub !(*)!$@U#(@(_#@$*!U)WE(*@#!I(EWOP#(!RUJ)FU(@!IO@()*!$!@&$()!@()@#)()(#()!$)($@!(#)@!(*)@)*(#PEWKDJ(I!@)$I$!(#JRWD")
+	wait(0.1)
+   	print("Bacon WARE : You Are Died / Error System Servers Hub !(*)!$@U#(@(_#@$*!U)WE(*@#!I(EWOP#(!RUJ)FU(@!IO@()*!$!@&$()!@()@#)()(#()!$)($@!(#)@!(*)@)*(#PEWKDJ(I!@)$I$!(#JRWD")
    end
    end,
 })
 
 local Tab = Window:CreateTab("Credit", 9766675093)
 
-local Label = Tab:CreateLabel("This Hub , Code Credit By BaconHub#1055.")
+local Label = Tab:CreateLabel("This Hub , Code Credit By Bacon ARWE#1055.")
 
-local Label = Tab:CreateLabel("Bacon Like Discord Lun-Ware My Server Edit By skp#4687 ")
+local Label = Tab:CreateLabel("Bacon Like Discord Lun-Ware My Server Edit By Laera#4687 ")
 
 local Label = Tab:CreateLabel("My UI , Frame , Title , Button , Animation Credit By Sirius Server")
 
@@ -192,7 +206,7 @@ local Label = Tab:CreateLabel("My Icon Make By Vision Software")
 
 local Label = Tab:CreateLabel("Developer Scripts")
 
-local Label = Tab:CreateLabel("BaconHub#1055 / skp#4687")
+local Label = Tab:CreateLabel("BaconHub#1055 / Laera#4687")
 
 local Tab = Window:CreateTab("Scripts", 4483362458)
 
@@ -274,7 +288,7 @@ local Label = Tab:CreateLabel("Furk | [Green] [Red] [?]")
 
 local Label = Tab:CreateLabel("Vega X | [Green] [Red] [?]")
 
-local Label = Tab:CreateLabel("Zyreus | [Green] [Red] [?]")
+local Label = Tab:CreateLabel("Zerus | [Green] [Red] [?]")
 
 local Label = Tab:CreateLabel("Synapse X | [Green] [Red] [?]")
 

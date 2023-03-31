@@ -1,20 +1,31 @@
 --System Local
 
 local verison = "V7.8"
-local Main = "Loading UI System"
-local Player = "1/5 Local File Players Name"
-local Frame = "2/5 Frame UI , Animation , Icon , Developer , Credit , Home"
-local Executor = "3/5 Loading Windows Scripts , Executors , BestScripts , Scripts UI"
-local Check = "4/5 Check Update ...."
-local Update = "5/5 Update Has Been Done "
-local Staters = "Bacon ARWE Is Starters In 1 Seaconds"
-local Error = "Bacon ARWE Has Error To You Delete getgenv().Executor = true or set getgenv().Executor = false"
-
+local load = "Loading Bacon"
+local send = "Loading Fasters . Don Make You Wait Long :D"
 --Players
 
 local player = game.Players.LocalPlayer
 local PlaceId = game.PlaceId
 local client = identifyexecutor()
+print(""..load.."")
+    game.StarterGui:SetCore("SendNotification",  {
+	Title = "Bacon Arwe";
+	Text = ""..load.."";
+	Image = "92481518";
+	Duration = "3";
+	Button1 = "Thank :)";
+})
+
+wait(2)
+print(""..send.."")
+    game.StarterGui:SetCore("SendNotification",  {
+	Title = "Bacon Arwe";
+	Text = ""..send.."";
+	Image = "92481518";
+	Duration = "5";
+	Button1 = "Thank :)";
+})
 
 if	not getgenv().Executor == nil then
 	
@@ -22,88 +33,20 @@ if	not getgenv().Executor == nil then
 	
 	if getgenv().Executor then
 
-print("System Is Loading .....")
-wait(0.5)
-print("Verison : "..verison.."")
-wait(0.5)
-print(""..Player.."")
-wait(1)
-print(""..Frame.."")
-wait(0.5)
-print(""..Executor.."")
-wait(1.5)
-print(""..Check.."")
-wait(0.1)
-print(""..Update.."")
-wait(0.5)
-print(""..Staters.."")
-wait(1)
 
-if cocoz then
-print("Bacon Deteced You Executor Cocoz")
 
-getgenv().FrameMode = true
-elseif trigon then 
-print("Bacon Deteced You Executor Trigon")
-
-getgenv().FrameMode = true
-elseif kiwi then
-print("Bacon Deteced You Executor Kiwi")
-
-getgenv().FrameMode = true
-elseif oxygen then
-print("Bacon Deteced You Executor Oxygen / Support")
-
-getgenv().FrameMode = true
-elseif krnl then
-print("Bacon Deteced You Executor Krnl / Wait You Wana Has Ban By Roblox ?")
-
-getgenv().FrameMode = true
-elseif jjspliot then
-print("Bacon Deteced You Executor JJspliot")
-
-getgenv().FrameMode = true
-getgenv().UpdateMode = true
-elseif syn then
-print("Bacon Deteced You Executor Synapse X")
-
-getgenv().FrameMode = true
-elseif ScriptWare then
-print("Bacon Deteced You Executor ScriptWare")
-
-getgenv().FrameMode = true
-elseif Danspliot then
-print("Bacon Deteced You Executor Danspliot")
-
-getgenv().FrameMode = true
-elseif Comet then
-print("Bacon Deteced You Executor Comet")
-
-getgenv().FrameMode = true
-elseif Rainer then
-print("Bacon Deteced You Executor Rainer")
-
-getgenv().FrameMode = true
-elseif electron then
-print("Bacon Deteced You Executor Electron")
-
-getgenv().FrameMode = true
-elseif Evon then
-print("Bacon Deteced You Executor Evon")
-
-getgenv().FrameMode = true
-elseif Hydrogen then
-player:Kick("Bacon ARWE Is Not Support Hydrogen Else You Can Executor Fluxus Android Or PC")
-elseif Furk then
-print("Bacon Deteced You Executor Furk")
-getgenv().FrameMode = true
-
-elseif Fluxus then
-	print("Bacon Deteced You Executor Fluxus / Support")
-
-	getgenv().FrameMode = true
+if "..client.." then
+    game.StarterGui:SetCore("SendNotification",  {
+	Title = "Bacon Arwe";
+	Text = "Bacon Deteced "..player.name.." Execute "..client..". Like Support";
+	Image = "92481518";
+	Duration = "10";
+	Button1 = "Thank :)";
+})
+    getgenv().FrameMode = true
 end
-		end
+	
+end
 	end
 	
 
@@ -119,14 +62,14 @@ local Window = Rayfield:CreateWindow({
    },
    Discord = {
       Enabled = false,
-      Invite = "Nq6uFUtf", 
+      Invite = "", 
       RememberJoins = false 
    },
    KeySystem = true,
    KeySettings = {
       Title = "Verify Key 🔑",
       Subtitle = "Create By BaconHub#1055",
-      Note = "Join Discord Lun To Has Key Bacon ARWE https://discord.gg/Nq6uFUtf",
+      Note = "Join Discord Lun To Has Key Bacon ARWE https://discord.gg/uqVwMq7Z",
       FileName = "BaconKey",
       SaveKey = true,
       GrabKeyFromSite = false, 

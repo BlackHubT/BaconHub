@@ -130,6 +130,14 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bloodlxst/SkittleWare/main/Script.txt", true))()
    end,
 })
+
+local Button = Tab:CreateButton({
+   Name = "Vynuxis",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
+   end,
+})
+
 local Section = Tab:CreateSection("Brookhaven")
 
 local Button = Tab:CreateButton({
@@ -265,9 +273,9 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "PoopDoor Edit / Best :D",
+   Name = "MsDoors/ Working Syn/Fluxus/Krnl Moblie:Fluxus",
    Callback = function()
-   loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))() 
+   loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))() 
    end,
 })
 
@@ -307,6 +315,13 @@ local Button = Tab:CreateButton({
    Name = "AdvancedWare",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/ViribusOwner/Viribus/main/Loader', true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Hoho hub",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
    end,
 })
 
@@ -405,6 +420,13 @@ local Button = Tab:CreateButton({
    Name = "Admin Black",
    Callback = function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Vynuxis",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
    end,
 })
 
